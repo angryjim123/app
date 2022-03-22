@@ -82,8 +82,7 @@
       }
        catch(PDOException $e) {
         echo "Connection failed: " . $e->getMessage();
-        echo "<br>Try again!";
-        echo "<br><a href ='signup.html'>Sign Up</a>";
+        header("refresh:0.1;url=welcome.php");
       }
 
     ?>
