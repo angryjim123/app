@@ -12,6 +12,8 @@
 
     $link = $_POST['avatar_url'];
 
+    echo $link;
+
     try {
       $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
       // set the PDO error mode to exception
@@ -28,7 +30,7 @@
       echo "Connection failed: " . $e->getMessage();
       echo "<br>Try again!";
       echo "<br>Redirecting in three seconds...";
-      header("refresh:3;url=followerspage.php");
+      header("refresh:3;url=index.php");
     }
 
     ?>
