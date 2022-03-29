@@ -8,7 +8,7 @@
     $servername = "us-cdbr-east-05.cleardb.net";
     $username = "bf95d530c89c14";
     $password = "396f81cc";
-    $database = "heroku_a454372d378d402";
+    $dbname = "heroku_a454372d378d402";
 
     $link = $_POST['avatar_url'];
 
