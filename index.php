@@ -5,7 +5,7 @@ $username = "be4c22fe1bd451";
 $password = "0128e3d6";
 $database = "heroku_f4c1f1b843cd581";
 
-// header("refresh:0.1;url='welcome.php'");
+header("refresh:0.1;url='welcome.php'");
 
 
 try {
