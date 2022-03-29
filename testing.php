@@ -30,7 +30,7 @@
       echo "Connection failed: " . $e->getMessage();
       echo "<br>Try again!";
       echo "<br>Redirecting in three seconds...";
-      header("refresh:3;url=index.php");
+      // header("refresh:3;url=index.php");
     }
 
     ?>
