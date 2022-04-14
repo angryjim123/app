@@ -103,7 +103,7 @@
                       <h3 id = 'liketext'>$likedamount Likes $blankspace$commentamount Comments</h3>
                       <input type='hidden' name='previd' value='$prev'/>
                     </form>
-                    <form action = likedpostcomment method = 'POST'>
+                    <form action = 'likedpostcomment.php' method = 'POST'>
                       <button id = 'buttoncomment' name = 'comment' type = 'submit' value = '$postid'><h4 id ='profilesearch'>Comment</h4></button>
                     </form>
                     <br>
