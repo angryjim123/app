@@ -9,16 +9,18 @@
       session_start();
 
       //upload pictures
-      $uploaddir = "photos/";
-      $uploaddir = str_replace('/', '\\', $uploaddir);
-      $uploadfile = $uploaddir . basename($_FILES['filename']['name']);
-
-      if (move_uploaded_file($_FILES['filename']['tmp_name'], $uploadfile))
-      {
-          $picture = $uploaddir . $_FILES['filename']['name'];
-      }
+      // $uploaddir = "photos/";
+      // $uploaddir = str_replace('/', '\\', $uploaddir);
+      // $uploadfile = $uploaddir . basename($_FILES['filename']['name']);
+      //
+      // if (move_uploaded_file($_FILES['filename']['tmp_name'], $uploadfile))
+      // {
+      //     $picture = $uploaddir . $_FILES['filename']['name'];
+      // }
 
       //upload descriptions
+
+      $link = $_POST['avatar_url'];
       $description = $_POST['description'];
       if($description == "")
       {
@@ -26,10 +28,10 @@
       }
 
       $description = addslashes($description);
-      $picture = addslashes($picture);
+      // $picture = addslashes($picture);
       $userid = $_SESSION['userid'];
 
-      $sql = "INSERT INTO `post`(`User_ID`, `Description`, `Image`) VALUES ('$userid', '$description', '$picture')";
+      $sql = "INSERT INTO `post`(`User_ID`, `Description`, `Image`) VALUES ('$userid', '$description', '$link')";
 
       try {
         $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
