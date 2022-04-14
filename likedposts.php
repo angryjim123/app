@@ -11,10 +11,10 @@
       session_start();
         echo "<section id = 'sectionfeed'>";
 
-        $servername = "localhost";
-        $username = "root";
-        $password = "1234567890";
-        $dbname = "photo";
+        $servername = "us-cdbr-east-05.cleardb.net";
+        $username = "bf95d530c89c14";
+        $password = "396f81cc";
+        $dbname = "heroku_a454372d378d402";
 
         $sql = "SELECT `post`.*, `user`.`Account_Name`, `user`.`Profile_Picture` FROM `post_like_table` JOIN `post` ON `post_like_table`.`Post_ID` = `post`.`Post_ID`
         LEFT JOIN `user` ON `user`.`User_ID` = `post`.`User_ID`
