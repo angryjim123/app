@@ -73,10 +73,11 @@
 
         $profilepicture = $_POST['avatar_url'];
 
-        if($profilepicture = "")
+        if($profilepicture == "")
         {
           $profilepicture = "https://cdn-2ph0o5sz.files-simplefileupload.com/static/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBakNPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b9a69bdba326f46b7b859a350255578ae2a6e4aa/default.jpg";
         }
+
         //
         //
         // if (move_uploaded_file($_FILES['filename']['tmp_name'], $uploadfile))
