@@ -87,7 +87,7 @@
         // {
         //   $profilepicture = $uploaddir . "default.jpg";
         //   //no picture
-        }
+        // }
         //
 
         $hashedpwd =  password_hash($pwd, PASSWORD_BCRYPT);
