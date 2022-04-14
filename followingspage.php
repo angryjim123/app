@@ -29,10 +29,10 @@
 
         // $_SESSION['temp'] = $_SESSION['userid'];
 
-        $servername = "localhost";
-        $username = "root";
-        $password = "1234567890";
-        $dbname = "photo";
+        $servername = "us-cdbr-east-05.cleardb.net";
+        $username = "bf95d530c89c14";
+        $password = "396f81cc";
+        $dbname = "heroku_a454372d378d402";
 
         try {
           $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
