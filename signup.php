@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="photov1.css">
+    <script src="https://app.simplefileupload.com/buckets/0f6ab5fed3a03b1d305d9ac29a4c160a.js"></script>
   </head>
   <body>
     <?php include 'nav.php'; ?>
@@ -49,8 +50,9 @@
         <input type="date" id="Birthdate" name="birthdate" required>
         <br>
         <!--  -->
-        <label for="filename" class = "custom">Upload Profile Picture</label>
-        <input type="file" id="filename" name="filename">
+        <input type="hidden" name="avatar_url" id="avatar_url" class="simple-file-upload" >
+        <!-- <label for="filename" class = "custom">Upload Profile Picture</label>
+        <input type="file" id="filename" name="filename"> -->
         <br>
         <!--  -->
         <input id = "submit" type="submit" value="Sign Up" >

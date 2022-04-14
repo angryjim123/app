@@ -109,21 +109,29 @@
     }
 
 
-    $uploaddir = "photos/";
-    $uploaddir = str_replace('/', '\\', $uploaddir);
-    $uploadfile = $uploaddir . basename($_FILES['filename']['name']);
+    // $uploaddir = "photos/";
+    // $uploaddir = str_replace('/', '\\', $uploaddir);
+    // $uploadfile = $uploaddir . basename($_FILES['filename']['name']);
 
-    if (move_uploaded_file($_FILES['filename']['tmp_name'], $uploadfile))
-    {
-        $profilepic = $uploaddir . $_FILES['filename']['name'];
-        $profilepic = addslashes($profilepic);
-        $str = "`Profile_Picture`= '$profilepic', ";
-        $firstpart = $firstpart . $str;
-    }
-    else //did not upload profile picture
-    {
+    $profilepic = $_POST['avatar_url'];
 
+    if($profilepic != "")
+    {
+      $str = "`Profile_Picture`= '$profilepic', ";
+      $firstpart = $firstpart . $str;
     }
+
+    // if (move_uploaded_file($_FILES['filename']['tmp_name'], $uploadfile))
+    // {
+    //     $profilepic = $uploaddir . $_FILES['filename']['name'];
+    //     $profilepic = addslashes($profilepic);
+    //     $str = "`Profile_Picture`= '$profilepic', ";
+    //     $firstpart = $firstpart . $str;
+    // }
+    // else //did not upload profile picture
+    // {
+    //
+    // }
 
     if($_POST['bio'] != "")
     {

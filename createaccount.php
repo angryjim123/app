@@ -66,19 +66,27 @@
         $gender = $_POST['gender'];
         $birthdate = $_POST['birthdate'];
 
-        //$profilepicture = $_POST['picture'];
-        $uploaddir = "photos/";
-        $uploaddir = str_replace('/', '\\', $uploaddir);
-        $uploadfile = $uploaddir . basename($_FILES['filename']['name']);
+        // //$profilepicture = $_POST['picture'];
+        // $uploaddir = "photos/";
+        // $uploaddir = str_replace('/', '\\', $uploaddir);
+        // $uploadfile = $uploaddir . basename($_FILES['filename']['name']);
 
-        if (move_uploaded_file($_FILES['filename']['tmp_name'], $uploadfile))
+        $profilepicture = $_POST['avatar_url'];
+
+        if($profilepicture = "")
         {
-            $profilepicture = $uploaddir . $_FILES['filename']['name'];
+          $profilepicture = "https://cdn-2ph0o5sz.files-simplefileupload.com/static/blobs/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBakNPIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b9a69bdba326f46b7b859a350255578ae2a6e4aa/default.jpg";
         }
-        else
-        {
-          $profilepicture = $uploaddir . "default.jpg";
-          //no picture
+        //
+        //
+        // if (move_uploaded_file($_FILES['filename']['tmp_name'], $uploadfile))
+        // {
+        //     $profilepicture = $uploaddir . $_FILES['filename']['name'];
+        // }
+        // else
+        // {
+        //   $profilepicture = $uploaddir . "default.jpg";
+        //   //no picture
         }
         //
 
@@ -88,7 +96,7 @@
         $accountname = addslashes($accountname);
         $bio = addslashes($bio);
         $birthdate = addslashes($birthdate);
-        $profilepicture = addslashes($profilepicture);
+        // $profilepicture = addslashes($profilepicture);
 
 
         try {
