@@ -27,7 +27,7 @@ header a {
 
 #ph{
   padding:20px;
-  background-color: green;
+  background-color: #ffa31a;
   color: black;
   font-weight: bold;
 }
@@ -185,7 +185,7 @@ input[type="file"] {
 }
 
 #buttonsearch{
-  background-color: green;
+  background-color: #ffa31a;
   position: relative;
   bottom: 15px;
   left:10px;
@@ -193,7 +193,7 @@ input[type="file"] {
 }
 
 #usercomment{
-  background-color: green;
+  background-color: #ffa31a;
   position: relative;
   bottom: 0px;
   left:100px;
@@ -201,7 +201,7 @@ input[type="file"] {
 }
 
 #commentedit{
-  background-color: green;
+  background-color: #ffa31a;
   position: relative;
   bottom: 20px;
   left:506px;
@@ -210,7 +210,7 @@ input[type="file"] {
 }
 
 #commentdelete{
-  background-color: green;
+  background-color: #ffa31a;
   position: relative;
   bottom: 38px;
   left:555px;
@@ -219,7 +219,7 @@ input[type="file"] {
 }
 
 #buttonunfollow{
-  background-color: green;
+  background-color: #ffa31a;
   position: absolute;
   top:200px;
   left:1030px;
@@ -227,7 +227,7 @@ input[type="file"] {
 }
 
 #buttonuneditphoto{
-  background-color: green;
+  background-color: #ffa31a;
   position: absolute;
   top:200px;
   left:1020px;
@@ -235,7 +235,7 @@ input[type="file"] {
 }
 
 #buttontotallike{
-  background-color: green;
+  background-color: #ffa31a;
   position: absolute;
   top:240px;
   left:1020px;
@@ -243,7 +243,7 @@ input[type="file"] {
 }
 
 #buttonlike{
-  background-color: green;
+  background-color: #ffa31a;
   position: relative;
   top:10px;
   left:100px;
@@ -251,7 +251,7 @@ input[type="file"] {
 }
 
 #buttoncomment{
-  background-color: green;
+  background-color: #ffa31a;
   position: relative;
   bottom:13px;
   left:250px;
@@ -259,7 +259,7 @@ input[type="file"] {
 }
 
 #buttondelete{
-  background-color: green;
+  background-color: #ffa31a;
   position: relative;
   bottom: 35px;
   left:550px;
@@ -288,7 +288,7 @@ textarea {
 #submit{
   margin:30px 0 30px 0;
   color: black;
-  background-color: green;
+  background-color: #ffa31a;
   font-weight: bold ;
   opacity: 100%;
 }
@@ -385,7 +385,7 @@ a{
   width:200px;
   margin:70px 0px 10px 0px;
   /* border: 5px solid #; */
-  border: 5px solid green;
+  border: 5px solid #ffa31a;
 }
 
 #logoimage{
@@ -401,7 +401,7 @@ a{
   width:500px;
   /* margin:0px 0px 0px 0px;
   float:center; */
-  border: 5px solid green;
+  border: 5px solid #ffa31a;
   /* border: 5px solid blue; */
 }
 #feedimagediv{
