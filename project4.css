@@ -2,7 +2,7 @@
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 5px;
   text-decoration: none;
-  margin:0;
+  margin: 0;
 }
 
 header {
@@ -13,146 +13,144 @@ header {
 }
 
 header a {
-  padding:20px;
+  padding: 20px;
   font-size: 15px;
   font-weight: bold;
 }
 
-#normal{
-  padding:20px;
+#normal {
+  padding: 20px;
   background-color: #292929;
   color: white;
   font-weight: bold;
 }
 
-#ph{
-  padding:20px;
-  background-color: #ffa31a;
+#ph {
+  padding: 20px;
+  background-color: blue;
   color: black;
   font-weight: bold;
 }
 
-body{
+body {
   background-color: black;
 }
 
 #sectionlog {
-  margin:50px 30%;
+  margin: 50px 30%;
   background-color: #1b1b1b;
   color: white;
   text-align: center;
 }
 
 #sectionfeed {
-  margin:50px auto;
-  width:700px;
+  margin: 50px auto;
+  width: 700px;
   background-color: #1b1b1b;
   color: white;
 }
 
-h1{
-  padding:15px 20px 15px 20px;
+h1 {
+  padding: 15px 20px 15px 20px;
   margin: 10px;
   font-size: 35px;
-  color:white;
+  color: white;
 }
 
-h2{
-  padding:15px 20px 50px 20px;
+h2 {
+  padding: 15px 20px 50px 20px;
   margin: 10px;
   font-size: 25px;
-  color:white;
+  color: white;
   line-height: 1.5;
 }
 
-h3{
-  padding:15px 20px 15px 20px;
+h3 {
+  padding: 15px 20px 15px 20px;
   margin: 10px;
   font-size: 15px;
   font-weight: normal;
-  color:white;
+  color: white;
 }
 
 #editprofileh4 {
   text-align: left;
-  margin-left:12%;
+  margin-left: 12%;
 }
 
-#datetime{
-  float:right;
-  display:inline;
-  padding-right:12%;
-  padding-bottom:10px;
+#datetime {
+  float: right;
+  display: inline;
+  padding-right: 12%;
+  padding-bottom: 10px;
 }
 
-hr{
-  width:80%;
-  text-align:left;
-  margin:0 10%;
+hr {
+  width: 80%;
+  text-align: left;
+  margin: 0 10%;
 }
 
-section h1{
-  padding:15px 20px 0 20px;
+section h1 {
+  padding: 15px 20px 0 20px;
   margin: 10px;
   font-size: 35px;
 }
 
-section h3{
-  padding:0px 20px 0 20px;
+section h3 {
+  padding: 0px 20px 0 20px;
   margin: 10px;
   text-decoration: none;
   opacity: 80%;
-  font-weight:normal
+  font-weight: normal;
 }
-#profileuser{
-  display:inline-block;
+#profileuser {
+  display: inline-block;
   text-decoration: none;
   opacity: 60%;
-  font-weight:bold;
-  padding-top:60px;
+  font-weight: bold;
+  padding-top: 60px;
   position: relative;
   bottom: 20px;
-  left:10px;
+  left: 10px;
 }
-#profileuserfeed{
-  display:inline-block;
+#profileuserfeed {
+  display: inline-block;
   text-decoration: none;
   opacity: 60%;
-  font-weight:bold;
-  padding-top:0px
+  font-weight: bold;
+  padding-top: 0px;
   position: relative;
-  color:white;
+  color: white;
   bottom: 20px;
-  left:10px;
+  left: 10px;
 }
 
-
-#profilebio{
-  display:inline-block;
+#profilebio {
+  display: inline-block;
   text-decoration: none;
   opacity: 60%;
-  font-weight:normal;
-  padding-top:25px;
+  font-weight: normal;
+  padding-top: 25px;
   position: relative;
   bottom: 20px;
-  left:100px;
+  left: 100px;
 }
 
-#profilesearch{
-  display:inline-block;
+#profilesearch {
+  display: inline-block;
   text-decoration: none;
   opacity: 60%;
-  font-weight:bold;
-
+  font-weight: bold;
 }
 
-section h5{
-  padding:5px 20px 15px 20px;
+section h5 {
+  padding: 5px 20px 15px 20px;
   margin: 10px;
   font-style: italic;
   text-decoration: none;
   opacity: 60%;
-  font-weight:normal
+  font-weight: normal;
 }
 
 section h6 {
@@ -161,292 +159,298 @@ section h6 {
   opacity: 70%;
 }
 
-input[type=text],input[type=password],input[type=email],input[type=submit]{
-  padding:10px 20px 10px 20px;
-  width:70%;
-  margin:10px;
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+  padding: 10px 20px 10px 20px;
+  width: 70%;
+  margin: 10px;
   border-style: none;
-  color:gray;
+  color: gray;
   background-color: #292929;
   font-style: italic;
 }
 
-.orangetext{
-  color:#ffa31a !important;
+.orangetext {
+  color: blue !important;
 }
 
-input[type=radio],input.radio,[type=checkbox]{
-  margin:25px 0 25px 10px;
+input[type="radio"],
+input.radio,
+[type="checkbox"] {
+  margin: 25px 0 25px 10px;
 }
 
 input[type="file"] {
-  margin:25px 0 25px 10px;
+  margin: 25px 0 25px 10px;
   display: none;
 }
 
-#buttonsearch{
-  background-color: #ffa31a;
+#buttonsearch {
+  background-color: blue;
   position: relative;
   bottom: 15px;
-  left:10px;
+  left: 10px;
   border-width: 0px;
 }
 
-#usercomment{
-  background-color: #ffa31a;
+#usercomment {
+  background-color: blue;
   position: relative;
   bottom: 0px;
-  left:100px;
+  left: 100px;
   border-width: 0px;
 }
 
-#commentedit{
-  background-color: #ffa31a;
+#commentedit {
+  background-color: blue;
   position: relative;
   bottom: 20px;
-  left:506px;
+  left: 506px;
   border-width: 0px;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
-#commentdelete{
-  background-color: #ffa31a;
+#commentdelete {
+  background-color: blue;
   position: relative;
   bottom: 38px;
-  left:555px;
+  left: 555px;
   border-width: 0px;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
-#buttonunfollow{
-  background-color: #ffa31a;
+#buttonunfollow {
+  background-color: blue;
   position: absolute;
-  top:200px;
-  left:1030px;
+  top: 200px;
+  left: 1030px;
   border-width: 0px;
 }
 
-#buttonuneditphoto{
-  background-color: #ffa31a;
+#buttonuneditphoto {
+  background-color: blue;
   position: absolute;
-  top:200px;
-  left:1020px;
+  top: 200px;
+  left: 1020px;
   border-width: 0px;
 }
 
-#buttontotallike{
-  background-color: #ffa31a;
+#buttontotallike {
+  background-color: blue;
   position: absolute;
-  top:240px;
-  left:1020px;
+  top: 240px;
+  left: 1020px;
   border-width: 0px;
 }
 
-#buttonlike{
-  background-color: #ffa31a;
+#buttonlike {
+  background-color: blue;
   position: relative;
-  top:10px;
-  left:100px;
+  top: 10px;
+  left: 100px;
   border-width: 0px;
 }
 
-#buttoncomment{
-  background-color: #ffa31a;
+#buttoncomment {
+  background-color: blue;
   position: relative;
-  bottom:13px;
-  left:250px;
+  bottom: 13px;
+  left: 250px;
   border-width: 0px;
 }
 
-#buttondelete{
-  background-color: #ffa31a;
+#buttondelete {
+  background-color: blue;
   position: relative;
   bottom: 35px;
-  left:550px;
+  left: 550px;
   border-width: 0px;
 }
 
-#buttonlink{
-  background-color:transparent;
+#buttonlink {
+  background-color: transparent;
   border-width: 0px;
   position: relative;
-  bottom:15px;
+  bottom: 15px;
 }
 
 textarea {
-  padding:10px 20px 10px 20px;
-  width:70%;
-  margin:10px;
+  padding: 10px 20px 10px 20px;
+  width: 70%;
+  margin: 10px;
   border-style: none;
-  color:gray;
-  resize:vertical;
+  color: gray;
+  resize: vertical;
   height: 100px;
   background-color: #292929;
   font-style: italic;
 }
 
-#submit{
-  margin:30px 0 30px 0;
+#submit {
+  margin: 30px 0 30px 0;
   color: black;
-  background-color: #ffa31a;
-  font-weight: bold ;
+  background-color: blue;
+  font-weight: bold;
   opacity: 100%;
 }
 
-a:hover, #submit:hover{
+a:hover,
+#submit:hover {
   opacity: 80%;
 }
 
-section.data{
-  margin:50px 20%;
+section.data {
+  margin: 50px 20%;
   text-align: left;
 }
 
-p{
-  padding:10px;
+p {
+  padding: 10px;
   font-size: 20px;
   color: blue;
   font-weight: bold;
   /* text-align: center; */
 }
 
-#zoom{
-  padding:30px;
+#zoom {
+  padding: 30px;
   font-size: 50px;
   color: blue;
   font-weight: bold;
 }
 
-a{
+a {
   /* padding:10px; */
   font-size: 15px;
   color: white;
 }
 
-#links{
-  padding:10px 10px 5px 10px;
-  margin:10px 10px 5px 10px;
+#links {
+  padding: 10px 10px 5px 10px;
+  margin: 10px 10px 5px 10px;
   font-size: 15px;
   color: blue;
-  display:inline-block;
-  color:white;
+  display: inline-block;
+  color: white;
   border-color: black;
   border-style: solid;
   border-width: 1px;
-  background-color: #235D75;
+  background-color: #235d75;
 }
 
-#onefull{
-  width:100%;
-  float:left;
-  text-align:center;
-}
-
-#twoleft{
-  width:33%;
-  float:left;
-  text-align:center;
-}
-
-#twomiddle{
-  width:33%;
-  float:left;
-  text-align:center;
-}
-
-#tworight{
-  width:33%;
-  float:left;
-  text-align:center;
-}
-
-#headerleft{
-  width:10%;
-  float:left;
+#onefull {
+  width: 100%;
+  float: left;
   text-align: center;
 }
 
-#headermiddle{
-  width:80%;
-  float:left;
-  text-align: center;
-}
-#headerright{
-  width:10%;
-  float:left;
+#twoleft {
+  width: 33%;
+  float: left;
   text-align: center;
 }
 
-#homeheader{
-  padding:30px 0px 50px 0px;
+#twomiddle {
+  width: 33%;
+  float: left;
+  text-align: center;
 }
 
-#welcomeimage{
-  width:200px;
-  margin:70px 0px 10px 0px;
+#tworight {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+#headerleft {
+  width: 10%;
+  float: left;
+  text-align: center;
+}
+
+#headermiddle {
+  width: 80%;
+  float: left;
+  text-align: center;
+}
+#headerright {
+  width: 10%;
+  float: left;
+  text-align: center;
+}
+
+#homeheader {
+  padding: 30px 0px 50px 0px;
+}
+
+#welcomeimage {
+  width: 200px;
+  margin: 70px 0px 10px 0px;
   /* border: 5px solid #; */
-  border: 5px solid #ffa31a;
+  border: 5px solid blue;
 }
 
-#logoimage{
-  width:43px;
-  margin:-20px 70px 10px 0px;
+#logoimage {
+  width: 43px;
+  margin: -20px 70px 10px 0px;
 }
-#profileimage{
-  width:100px;
-  margin:30px 0px 10px 0px;
+#profileimage {
+  width: 100px;
+  margin: 30px 0px 10px 0px;
   padding-left: 100px;
 }
-#feedimage{
-  width:500px;
+#feedimage {
+  width: 500px;
   /* margin:0px 0px 0px 0px;
   float:center; */
-  border: 5px solid #ffa31a;
+  border: 5px solid blue;
   /* border: 5px solid blue; */
 }
-#feedimagediv{
-  text-align:center
+#feedimagediv {
+  text-align: center;
 }
-#logoutimage{
-  width:43px;
-  margin:-20px -70px 10px 0px;
+#logoutimage {
+  width: 43px;
+  margin: -20px -70px 10px 0px;
 }
 
-#oneline{
-  width:100%;
+#oneline {
+  width: 100%;
   display: inline-block;
 }
 
-#text{
-  margin:0px 100px;
-  padding:0px;
+#text {
+  margin: 0px 100px;
+  padding: 0px;
   word-wrap: break-word;
   text-align: justify;
 }
-#text2{
-  margin:10px 100px 0px 100px;
+#text2 {
+  margin: 10px 100px 0px 100px;
   word-wrap: break-word;
   text-align: justify;
 }
-#liketext{
-  margin:-7px 160px;
-  padding:0px;
+#liketext {
+  margin: -7px 160px;
+  padding: 0px;
   word-wrap: break-word;
   text-align: justify;
 }
 
 .custom {
-    border: 1px solid #ccc;
-    display: inline-block;
-    padding: 6px 12px;
-    margin:20px 0px 0px 0px;
-    cursor: pointer;
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 20px 0px 0px 0px;
+  cursor: pointer;
 }
 
 .custom2 {
   border: 1px solid #ccc;
   display: inline-block;
   padding: 6px 12px;
-  margin:25px 0px 20px 0px;
+  margin: 25px 0px 20px 0px;
   cursor: pointer;
 }
